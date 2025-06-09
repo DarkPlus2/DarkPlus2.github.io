@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Music Downloader</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 Music Downloader (Demo)</h1>
+    <select id="platform">
+      <option value="ytmusic">YouTube Music</option>
+      <option value="spotify">Spotify</option>
+      <option value="soundcloud">SoundCloud</option>
+    </select>
+    <input type="text" id="musicUrl" placeholder="Paste music link here..." />
+    <button onclick="downloadMusic()">Download</button>
+    <div id="result"></div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
